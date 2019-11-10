@@ -1,0 +1,69 @@
+.social-container{
+    width:300px;
+    height: 200px;
+    background-color: #e5e5e5;
+    border: 1px blue solid;
+    border-radius: 10%;
+    position: absolute;
+    top:40%;
+    transform: translateX(-100%);
+    transition: transform 0.4s ease-out;
+  
+  
+ 
+}
+
+.social-container a:hover {
+    background-color:#add8e6;
+    transform: Scale(1.2);
+   
+
+}
+
+.button-container{
+   position: fixed;
+   top:50%;
+   left:50vw;
+   
+
+}
+.social-container p{
+    text-align:center;
+    font-weight: bold;
+
+}
+
+body{
+    position: relative;
+    height:100vh;
+    background: linear-gradient(to right, #20002c, #cbb4d4);
+}
+
+.social-panel{
+    padding-top:30px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+    
+
+}
+
+.social-container.visible{
+    
+        transform: translateX(20px);
+    
+}
+
+.social-panel a{
+    border: 1px solid rgb(184, 68, 139);
+	border-radius: 50%;
+	color: #001F61;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	width: 50px;
+	text-decoration: none;
+}
